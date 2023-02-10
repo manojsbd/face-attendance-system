@@ -1,0 +1,16 @@
+1...database ko name: face_attendance_system
+2...table           : student_attendance
+3...final table     : final  (yo chai google charts raw information display garauna ho...)
+                      
+
+
+
+----------------------------------------------------------------------------
+create database face_attendance_system;
+create table student_attendance
+                            (
+                           Name varchar(50),
+                           Attendance varchar(50)
+                             );
+create view student_attendance_final as select NAME , Count(NAME) as Att from student_attendance group by name order by Att;
+-----------------------------------------------------------------------------

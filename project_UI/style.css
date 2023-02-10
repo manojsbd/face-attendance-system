@@ -1,0 +1,125 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Shizuru', cursive; */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* text-decoration: none; */
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+  /* navigation */
+  .navigation{
+      margin-top: 20px;
+  }
+a{
+    color: white;
+    text-decoration: underline;
+    
+    font-size: 10px;
+
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+
+}
+
+.logoimg{
+    width: 80px;
+    height: 80px;
+    margin-left: 150px;
+    
+}
+
+/* mainbody */
+.mainbody{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.logo {
+   
+    /* font-family: 'Shizuru', cursive; */
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+
+button{
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+input{
+    text-align: center;
+    
+}
+.formwala{
+    margin-top: 30px;
+}
+.tiny{
+    font-size: 10px;
+    margin-top: 30px;
+}
+.btn{
+    background-color: orange;
+}
+.btn:hover{
+    background-color: orange;
+}
+
+
+
+
+
+/* table wala */
+th{
+    text-align: center;
+    text-decoration: underline;
+    color: orange;
+    font-size: 30px;
+}
+
+
+/* student time record */
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.centerbutton{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left:400px;
+}
+
+
+/* csv file wala */
+
+.csvcontainer{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+.csvcontainer h1{
+    color: orange;
+}
+
+
+
+/* visual */
+
+.visually{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
